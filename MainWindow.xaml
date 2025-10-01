@@ -5,8 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Dogab"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Dolgozat" Height="470" Width="350">
     <Grid>
+		<Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<StackPanel>
+			<WrapPanel Margin="0,15,0,10">
+				<TextBlock Text="Diák neve:" Margin="10,0,0,10" VerticalAlignment="Center"/>
+				<TextBox x:Name="diaknev" Text="" Width="200" Margin="10,0,0,10" VerticalAlignment="Center"/> 
+			</WrapPanel>
+			<WrapPanel>
+				<TextBlock Text="Fizetett összeg" Margin="10,0,0,10" VerticalAlignment="Center" />
+				<TextBox x:Name="fizetettosszeg" Text="" Width="175" Margin="10,0,0,10" VerticalAlignment="Center" /> 
 
-    </Grid>
+			</WrapPanel>
+			<WrapPanel>
+				<Button Content="Hozzáad" Width="80" Margin="20,10,0,10" Click="HozzaadClick" />
+				<Button Content="C" Width="40" Margin="20,10,0,10" Click="CClick" />
+				<Button Content="Ce" Width="40" Margin="20,10,0,10" Click="CeClick" />
+
+			</WrapPanel>
+			<WrapPanel>
+				<Button Content="Kijelölt törlése" Width="100" Margin="20,0,0,10" Click="KijeloltTorol" /> 
+
+			</WrapPanel>
+			<ListBox x:Name="Lista" Margin="10,0,10,10" Height="250" Width="300" HorizontalAlignment="Center" />
+			<WrapPanel>
+				<TextBlock Text="Összesen:" Margin="10,0,0,10" VerticalAlignment="Center" />
+				<TextBox x:Name="osszesen" Text="" Width="50" Margin="10,0,0,10" VerticalAlignment="Center" IsReadOnly="True" />
+			</WrapPanel>
+		</StackPanel>
+	
+
+	</Grid>
 </Window>
