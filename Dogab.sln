@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogab", "Dogab.csproj", "{65D6BCFB-55DA-41FC-AFE3-239AEC5B40F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65D6BCFB-55DA-41FC-AFE3-239AEC5B40F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D6BCFB-55DA-41FC-AFE3-239AEC5B40F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D6BCFB-55DA-41FC-AFE3-239AEC5B40F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D6BCFB-55DA-41FC-AFE3-239AEC5B40F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31F0B3E8-8389-4F1C-BE30-E4D0FDA57583}
+	EndGlobalSection
+EndGlobal
